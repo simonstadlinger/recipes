@@ -24,6 +24,6 @@ deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
-  local_dir: dist/recipe
+  local_dir: dist/recipes
   on:
     branch: master
