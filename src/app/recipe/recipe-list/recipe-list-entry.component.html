@@ -1,0 +1,11 @@
+
+<a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center" (click)="onSelect()">
+    <div class="image-parent">
+        <img src="{{ recipe.imgsource }}" class="img-fluid rounded" alt="quixote" style="max-width: 80%">
+    </div>  
+    <div class="flex-column">
+      <h4 class="mb-3">{{recipe.name}}</h4>
+      <p class="mb-3">{{recipe.description}}</p>
+      <span class="badge badge-info badge-pill">{{recipe.difficulty}}</span>
+    </div>   
+</a>
